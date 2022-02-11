@@ -1,0 +1,47 @@
+.app {
+  background-color: #282c34;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+.app-layout {
+  min-height: 100vh !important;
+  width: 90vw;
+  max-width: 1160px;
+  padding: 0 16px;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+  align-items: center;
+
+  .app-layout-top {
+    .ant-layout-header {
+      width: 100vw;
+      max-width: 1160px;
+      background: transparent !important;
+      padding: 0 !important;
+
+      .ant-menu > li {
+        flex-grow: 1 !important;
+        text-align: center;
+      }
+    }
+  }
+
+  .app-layout-bottom {
+    .ant-layout-footer {
+      width: 100vw;
+      max-width: 1160px;
+      background: #ffffff !important;
+      padding-right: 20px;
+      padding-left: 20px;
+    }
+  }
+}
+
+.ant-layout {
+  background: transparent !important;
+}

@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Quicksand&display=swap');
+
+$body-font: 'Quicksand', sans-serif;
+$header-font: 'Montserrat', sans-serif;
+
+body {
+  margin: 0;
+  font-family: $body-font !important;
+  font-weight: normal !important;
+  color: white !important;
+}
+
+h1 h2 h3 h4 h5 h6 {
+  font-family: $body-font !important;
+  font-weight: normal !important;
+}
