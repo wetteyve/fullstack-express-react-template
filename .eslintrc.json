@@ -1,0 +1,45 @@
+{
+    "root": true,
+    "parser": "@typescript-eslint/parser",
+    "plugins": ["@typescript-eslint", "react-hooks", "eslint-plugin-react"],
+    "extends": [
+      "eslint:recommended",
+      "plugin:react-hooks/recommended",
+      "plugin:@typescript-eslint/eslint-recommended",
+      "plugin:@typescript-eslint/recommended",
+      "plugin:react/recommended"
+    ],
+    "rules": {
+      "@typescript-eslint/no-inferrable-types": 0,
+      "@typescript-eslint/ban-types": 0,
+      "@typescript-eslint/no-explicit-any": 0,
+      "@typescript-eslint/semi": ["warn"],
+      "@typescript-eslint/explicit-module-boundary-types": 0,
+      "semi": "off",
+      "eqeqeq": "error",
+      "dot-notation": "error",
+      "block-scoped-var": "error",
+      "no-else-return": "error",
+      "no-empty-function": "error",
+      "no-floating-decimal": "error",
+      "no-global-assign": "error",
+      "no-loop-func": "error",
+      "no-multi-spaces": "warn",
+      "no-octal": "error",
+      "no-redeclare": "error",
+      "no-self-assign": "error",
+      "no-self-compare": "error",
+      "no-throw-literal": "error",
+      "no-unmodified-loop-condition": "error",
+      "require-await": "warn",
+      "yoda": "warn",
+      "react/function-component-definition": [
+        "error",
+        {
+          "namedComponents": "arrow-function",
+          "unnamedComponents": "arrow-function"
+        }
+      ]
+    }
+  }
+  
