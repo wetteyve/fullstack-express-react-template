@@ -2,7 +2,7 @@
 
 .app {
   background-color: #282c34;
-  width: 100vw;
+  width: auto;
   min-height: 100vh;
   display: flex;
   flex-flow: column;
@@ -31,7 +31,7 @@
       color: white;
 
       .ant-menu > li {
-        flex-grow: 1 !important;
+        flex: 1 !important;
         text-align: center;
       }
     }
@@ -68,4 +68,15 @@
 
 .loader-container {
   align-self: center;
+}
+
+.slick-dots li button {
+  width: 18px !important;
+  height: 7px !important;
+  background: black !important;
+}
+
+.slick-dots button {
+  width: 20px;
+  height: 7px;
 }
