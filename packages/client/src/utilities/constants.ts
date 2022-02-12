@@ -1,0 +1,1 @@
+export const STRAPI_BASE_URL = "https://content.uht-herisau.ch";

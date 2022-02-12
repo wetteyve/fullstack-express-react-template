@@ -1,12 +1,13 @@
-.test {
-    height: 60vh;
-    color: #fff;
-    line-height: 160px;
-    text-align: center;
-    background: #364d79;
+.home-top-image {
+  height: 60vh;
+  color: #fff;
+  line-height: 160px;
+  text-align: center;
+  opacity: 0.9;
+  object-fit: cover;
 }
 
-.test-2 {
+.header-carousel {
   display: flex;
   flex-flow: column;
   height: fit-content;
@@ -15,4 +16,54 @@
 .ant-carousel {
   width: 100vw;
   max-width: 1160px;
+}
+
+.ant-card-head-title {
+  font-weight: 800;
+}
+
+.news-card {
+  width: auto;
+  margin: 20px 0;
+  text-align: center;
+}
+
+@media screen and (max-width: 1160px) {
+  .news-card {
+    margin: 20px;
+  }
+}
+
+.sponsor-container {
+  width: auto;
+  display: flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  .sponsor-card {
+    max-width: calc(1140px/2);
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .sponsor-card:first-child {
+    margin-right: 20px;
+  }
+}
+@media screen and (max-width: 1160px) {
+  .sponsor-card {
+    width: auto;
+    max-width: none !important;
+    margin: 0 20px 20px 20px;
+  }
+  .sponsor-container {
+    flex-flow: column;
+  }
+}
+
+.sponsor-img {
+  height: 300px;
+  max-height: 40vh;
+  object-fit: contain;
 }
